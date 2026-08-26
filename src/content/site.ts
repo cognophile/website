@@ -2,14 +2,15 @@
 
 export const person = {
   name: "Alex",
+  pseudonym: "cognophile",
   role: "Senior Software Engineer",
   headline:
-    "Building robust systems through precise engineering and understated design.",
+    "Crafting software and systems with care.",
   tagline:
-    "Specialist in coffee consumption, often found building software or watching motorsport.",
+    "Always learning; often coding. Powered by caffiene.",
   summary: [
-    "I'm a senior software engineer with over a decade of experience building and maintaining business-critical software across finance, research and enterprise settings. My work sits where reliability, performance and developer experience meet.",
-    "I care about clean, well-tested code, documentation that earns its keep, and mentoring other engineers. The best solutions I've shipped have been the simple, observable ones that were still easy to change three years later.",
+    "I'm a senior software engineer with over a decade of experience building and maintaining business-critical software across finance, research, and enterprise settings.", 
+    "My efforts sit where reliability, performance and engineering experience meet. I care deeply about crafting maintainable architectures, clean and well-tested code, and documentation that earns its keep, all whilst mentoring students and other engineers.",
   ],
 };
 
@@ -83,7 +84,7 @@ export const career: Role[] = [
   },
   {
     period: "Previously",
-    company: "Mattioli Woods plc",
+    company: "Mattioli Woods",
     title: "Software Developer",
     href: "https://mattioliwoods.com/",
   },

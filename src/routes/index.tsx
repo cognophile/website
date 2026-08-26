@@ -74,7 +74,7 @@ function Home() {
         <SummarySection />
         <ProjectsSection />
         <WritingSection posts={posts} />
-        <CareerSection />
+        {/* <CareerSection /> */}
       </main>
 
       <footer className="mt-32 border-t border-border">
@@ -93,7 +93,7 @@ function Home() {
             ))}
           </div>
           <div className="font-mono text-[11px] text-muted-foreground/60">
-            &copy; {new Date().getFullYear()} {person.name}
+            &copy; {new Date().getFullYear()} {person.pseudonym}. All rights reserved.
           </div>
         </div>
       </footer>
