@@ -17,7 +17,7 @@ export const socials = [
   { label: "GitHub", href: "https://github.com/cognophile" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/alexboggis/" },
   { label: "Hashnode", href: "https://cognophile.hashnode.dev" },
-  { label: "Mastodon", href: "https://mastodon.social/@cognophile" },
+  { label: "BlueSky", href: "https://bsky.app/profile/cognophile.bsky.social" },
   {
     label: "Stack Overflow",
     href: "https://stackoverflow.com/users/5012644/cognophile",

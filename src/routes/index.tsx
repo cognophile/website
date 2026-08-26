@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import { SiteNav } from "@/components/SiteNav";
 import { SocialLinks } from "@/components/SocialLinks";
-import { SectionLabel } from "@/components/SectionLabel";
+import { SummarySection } from "@/components/SummarySection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { CareerSection } from "@/components/CareerSection";
 import { WritingSection } from "@/components/WritingSection";
@@ -11,7 +11,7 @@ import { getRecentPosts } from "@/lib/posts.functions";
 
 const title = "Alex — Senior Software Engineer";
 const description =
-  "Personal site of Alex, a senior software engineer: professional summary, selected projects, career history and recent writing from the cognophile blog.";
+  "Always learning; often coding";
 
 export const Route = createFileRoute("/")({
   loader: async () => ({ posts: await getRecentPosts() }),
@@ -71,28 +71,10 @@ function Home() {
           </div>
         </section>
 
-        <section
-          id="summary"
-          className="animate-fade-up grid grid-cols-1 gap-12 md:grid-cols-12"
-        >
-          <div className="md:col-span-3">
-            <SectionLabel>01. Summary</SectionLabel>
-          </div>
-          <div className="space-y-6 md:col-span-8">
-            {person.summary.map((paragraph) => (
-              <p
-                key={paragraph.slice(0, 24)}
-                className="max-w-[55ch] text-pretty text-lg leading-relaxed text-muted-foreground"
-              >
-                {paragraph}
-              </p>
-            ))}
-          </div>
-        </section>
-
+        <SummarySection />
         <ProjectsSection />
-        <CareerSection />
         <WritingSection posts={posts} />
+        <CareerSection />
       </main>
 
       <footer className="mt-32 border-t border-border">

@@ -8,7 +8,7 @@ export function CareerSection() {
       className="animate-fade-up grid grid-cols-1 gap-12 md:grid-cols-12"
     >
       <div className="md:col-span-3">
-        <SectionLabel>03. Experience</SectionLabel>
+        <SectionLabel>04. Experience</SectionLabel>
       </div>
       <div className="md:col-span-9">
         {career.map((role, index) => (

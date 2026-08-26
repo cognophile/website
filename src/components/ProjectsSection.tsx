@@ -5,7 +5,7 @@ export function ProjectsSection() {
     <section id="work" className="animate-fade-up space-y-12">
       <div className="flex items-end justify-between border-b border-border pb-6">
         <h2 className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-          02. Selected Work
+          02. Projects
         </h2>
         <span className="font-mono text-[10px] text-muted-foreground/50">
           {projects.length} projects

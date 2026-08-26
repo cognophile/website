@@ -1,12 +1,12 @@
-import { Github, Linkedin, PenLine, Rss, MessagesSquare } from "lucide-react";
+import { Github, Linkedin, Hash, Twitter, Layers } from "lucide-react";
 import { socials } from "@/content/site";
 
 const icons: Record<string, typeof Github> = {
   GitHub: Github,
   LinkedIn: Linkedin,
-  Hashnode: PenLine,
-  Mastodon: Rss,
-  "Stack Overflow": MessagesSquare,
+  Hashnode: Hash,
+  BlueSky: Twitter,
+  "Stack Overflow": Layers,
 };
 
 export function SocialLinks() {

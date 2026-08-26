@@ -17,7 +17,7 @@ export function WritingSection({ posts }: { posts: BlogPost[] }) {
     <section id="writing" className="animate-fade-up space-y-12">
       <div className="flex items-end justify-between border-b border-border pb-6">
         <h2 className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-          04. Recent Posts
+          03. Ramblings
         </h2>
         <a
           href={blogUrl}

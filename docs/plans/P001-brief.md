@@ -5,16 +5,16 @@ A one-page site at `/` in the "Modular technical grid" direction: light Cloud Wh
 ## Page sections (in order)
 
 1. **Sticky nav** — monospace wordmark plus anchor links to Summary, Projects, Career, Writing.
-2. **Hero** — 7/5 split: status label, one-line headline, and an icon row linking to GitHub, LinkedIn, Hashnode, Mastodon, Stack Overflow; portrait image on the right in a 4:5 rounded frame.
+2. **Hero** — 7/5 split: status label, one-line headline, and an icon row linking to GitHub, LinkedIn, Hashnode, Bluesky, Stack Overflow; portrait image on the right in a 4:5 rounded frame.
 3. **01. Summary** — labelled left margin, bio and professional summary on the right.
-4. **02. Selected Work** — 4 project cards (NotaFresca, Worrybook, Deskcal, MedClerk by default) with category label, name, one-line description, and repo/demo links.
+4. **02. Projects** — 4 project cards (NotaFresca, Worrybook, Deskcal, MedClerk by default) with category label, name, one-line description, and repo/demo links.
 5. **03. Experience** — 4 rows: The Access Group (Senior Software Engineer), Mattioli Woods, Isaac Newton Institute, University of Cambridge.
 6. **04. Recent Posts** — 3 cards pulled live from your Hashnode blog: title, date, excerpt, linking to the post.
 7. **Footer** — quiet row with contact/social links and a copyright line.
 
 ## Content
 
-I'll seed all copy from your current site (cognophile.webflow.io) — bio tone, the four career entries, and the project list — as editable defaults in one content file so you can tweak names, descriptions, and links in a single place. Social links point at your real profiles (github.com/cognophile, linkedin.com/in/alexboggis, mastodon.social/@cognophile, Stack Overflow, cognophile.hashnode.dev).
+I'll seed all copy from your current site (cognophile.webflow.io) — bio tone, the four career entries, and the project list — as editable defaults in one content file so you can tweak names, descriptions, and links in a single place. Social links point at your real profiles (github.com/cognophile, linkedin.com/in/alexboggis, cognophile.bsky.social, Stack Overflow, cognophile.hashnode.dev).
 
 ## Blog posts
 
