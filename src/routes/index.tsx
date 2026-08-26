@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import portrait from "@/assets/portrait.png.asset.json";
+import portrait from "@/assets/portrait.png";
 import { SiteNav } from "@/components/SiteNav";
 import { SocialLinks } from "@/components/SocialLinks";
 import { SectionLabel } from "@/components/SectionLabel";
