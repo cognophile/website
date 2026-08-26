@@ -60,7 +60,7 @@ export const projects: Project[] = [
     links: [{ label: "Repo", href: "https://github.com/cognophile/Deskcal" }],
   },
   {
-    category: "web",
+    category: "Library",
     name: "Toolblox",
     description:
       "A one-stop library for common utilities for developing .NET applications.",
