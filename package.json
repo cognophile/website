@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "build:pages": "vite build --mode pages",
+    "build:pages": "npm run posts:fetch && vite build --mode pages",
+    "posts:fetch": "node scripts/fetch-posts.mjs",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
