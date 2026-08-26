@@ -60,11 +60,11 @@ export const projects: Project[] = [
     links: [{ label: "Repo", href: "https://github.com/cognophile/Deskcal" }],
   },
   {
-    category: "Web Platform",
-    name: "MedClerk",
+    category: "web",
+    name: "Toolblox",
     description:
-      "Medical centre management system covering patients, staff and scheduling.",
-    links: [{ label: "Repo", href: "https://github.com/cognophile/MedClerk" }],
+      "A one-stop library for common utilities for developing .NET applications.",
+    links: [{ label: "Repo", href: "https://github.com/cognophile/Toolblox" }],
   },
 ];
 
