@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import portrait from "@/assets/portrait.png";
 import { SiteNav } from "@/components/SiteNav";
 import { SocialLinks } from "@/components/SocialLinks";
 import { SectionLabel } from "@/components/SectionLabel";
@@ -63,7 +62,7 @@ function Home() {
           </div>
           <div className="md:col-span-5">
             <img
-              src={portrait.url}
+              src="/src/assets/portrait.png"
               alt="Portrait of Alex, senior software engineer"
               width={800}
               height={1000}
