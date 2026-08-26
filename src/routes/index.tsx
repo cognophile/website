@@ -8,6 +8,7 @@ import { CareerSection } from "@/components/CareerSection";
 import { WritingSection } from "@/components/WritingSection";
 import { person, socials, blogUrl } from "@/content/site";
 import { getRecentPosts } from "@/lib/posts.functions";
+import portraitUrl from "@/assets/portrait.png";
 
 const title = "Alex — Senior Software Engineer";
 const description =
@@ -62,7 +63,7 @@ function Home() {
           </div>
           <div className="md:col-span-5">
             <img
-              src="/src/assets/portrait.png"
+              src={portraitUrl}
               alt="Portrait of Alex, senior software engineer"
               width={800}
               height={1000}

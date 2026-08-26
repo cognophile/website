@@ -4,6 +4,12 @@ import viteReact from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
-export default defineConfig({
-  plugins: [tanstackStart(), tsconfigPaths(), viteReact(), tailwindcss()],
-});
+export default defineConfig(({ mode }) => ({
+  base: process.env["VITE_BASE_PATH"] ?? "/",
+  plugins: [
+    ...(mode === "pages" ? [] : [tanstackStart()]),
+    tsconfigPaths(),
+    viteReact(),
+    tailwindcss(),
+  ],
+}));
