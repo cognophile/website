@@ -24,9 +24,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      
+      # This automatically handles custom domain configs
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - run: npm run build:pages
         env:
-          VITE_BASE_PATH: /website/
+          VITE_BASE_PATH: /
+          
       - run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
